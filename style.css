@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+* {
+    cursor: progress;
+}
+
+body {
+    background: -webkit-linear-gradient(left, #c0c0c7, #000000);
+}
+
+#Main {
+    background-color: rgba(156, 83, 83, 0.874);
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10px;
+    margin: 2vw 4vw;
+    display: flex;
+}
+
+.Score {
+    text-decoration: none;
+    margin: 20px 100px;
+    font-size: 32px;
+    color: black;
+}
+
+.Score:hover {
+    color: rgb(221, 188, 188);
+}
+
+.name:hover {
+    color: rgb(221, 188, 188);
+}
+
+.boxcontaner {
+    background-color: rgba(211, 200, 200, 0.874);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 33vw;
+}
+
+#contaner {
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+}
+
+.box {
+    border: 2px solid #000000;
+    font-size: 9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fugaz One', cursive;
+}
+
+#reset {
+    font-style: italic;
+    font-size: medium;
+    border-radius: 9px;
+    margin: 0 15px;
+    padding: 0 15px;
+}
+
+.box:hover {
+    background-color: rgba(199, 199, 199, 0.754);
+}
+
+.gameinfo {
+    font-family: 'Dancing Script', cursive;
+    padding: 0 30px;
+    margin: 0 20px;
+}
+
+.print {
+    font-family: 'Dancing Script', cursive;
+    padding: 0 30px;
+    margin: 0 20px;
+}
+
+#reset:hover {
+    background-color: red;
+    color: white;
+}
+
+.info {
+    margin-left: 50px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.info:hover {
+    color: rgba(78, 150, 157, 0.662);
+}
+
+@media screen and (max-width: 800px) {
+    .boxcontaner {
+        flex-wrap: wrap;
+    }
+
+    .gameinfo {
+        margin-top: 50px;
+    }
+}
+
+.bt-0 {
+    border-top: 0;
+}
+
+.bl-0 {
+    border-left: 0;
+}
+
+.br-0 {
+    border-right: 0;
+}
+
+.bb-0 {
+    border-bottom: 0;
+}
